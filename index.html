@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio do Jonas</title>
   <link rel="stylesheet" href="style.css">
+  <title>Portfólio do Jonas</title>
 </head>
-
-<body class="body">
-  <div class="header">
-    <div class="buttons_header">
-      <button class="button_aboutMe">Sobre Mim</button>
-      <button class="button_projects">Projetos</button>
-      <button class="button_contact">Contato</button>
-    </div>
-  </div>
+<body id="body">
+  <header id="header">
+    <h1>Portifólio do Jonas</h1>
+  </header>
   <article>
-    <div id="TextBody">
+    <div id="aboutMe">
       <h1>SOBRE MIM</h1>
-      <p>Olá, meu nome é Jonas Jeronimo, atualmente estou cursando Ciência da Computação EAD pela Universidade Estácio de Sá e Desenvolvimento Web
+      <p class="aboutMeText">Olá, meu nome é Jonas Jeronimo, atualmente estou cursando Ciência da Computação EAD pela Universidade Estácio de Sá e Desenvolvimento Web
         Fullstack pela Trybe.<br>
         Meu objetivo é ser um excelente desenvolvedor Frontend enquanto aprendo novas linguagens e
         ferramentas de desenvolvimento, para assim, poder avançar da área de web para aplicativos Mobile e desktop das
         diversas categorias.</p>
     </div>
+    <hr>
     <div id="MainProjects">
       <h1>PRINCIPAIS PROJETOS</h1>
-      <h2>Apesar de me orgulhar de cada linha de código que eu escrevo, os projetos listados abaixo seriam os que eu
-        com certeza penduraria na parede da minha sala</h2>
-        <a target="_blank" href="https://github.com/JonasJeronimo">veja meus outros trabalhos</a>
+      <p class="mainProjectsText">Apesar de me orgulhar de cada linha de código que eu escrevo, <br> os projetos listados abaixo seriam os que eu
+        com certeza penduraria na parede da minha sala</p>
+        <div class="imagensArveres">
+            <div class="imagensArveres1">
+                <img src="arvere.jpg" alt='imagem arvere' width="125" height="150">
+                <p class="textImagemArvere">Imagem Arvere 1</p>
+            </div>
+            <div class="imagensArveres2">
+                <img src="arvere.jpg" alt='imagem arvere' width="125" height="150">
+                <p class="textImagemArvere">Imagem Arvere 2</p>
+            </div>
+            <div class="imagensArveres3">
+                <img src="arvere.jpg" alt='imagem arvere' width="125" height="150">
+                <p class="textImagemArvere">Imagem Arvere 3</p>
+            </div>
+        </div>
+        <a target="_blank" href="https://github.com/JonasJeronimo">Veja esses e outros trabalhos meus com mais detalhes aqui!</a>
     </div>
-    <div>
+    <hr>
+    <div id="contact">
       <h1>ENTRE EM CONTATO COMIGO</h1>
-      <a target="_blank" href="https://www.linkedin.com/in/jonasjeronimo/">Meu LinkedIn</a>
-      <br>
+      <p>Meus emails: <u>jonas.jeronimo@live.com</u> & <u>jonasjeronimo140@gmail.com</u></p>
       <a target="_blank" href="https://github.com/JonasJeronimo">Meu Github</a>
+      <br>
+      <a target="_blank" href="https://www.linkedin.com/in/jonasjeronimo/">Meu LinkedIn</a>
     </div>
   </article>
 </body>
-
 </html>

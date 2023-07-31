@@ -1,20 +1,50 @@
-.body{
-  background-color: black;
-}
-
-.header{
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  display: inline-block;
+#body {
   background-color: beige;
-
+  font-family: sans-serif;
 }
-
-#TextBody{
+#header{
+  background-color: rgb(91, 100, 118);
+  font-size: small;
+  text-align: right;
+  border: 2px solid black;
+  padding-right: 10px;
+  font-family: cursive;
   color: beige;
 }
-
-.buttons_header{
-  float: left
+#aboutMe{
+  color: black;
+  padding: 10px;
+}
+#MainProjects{
+  color: black;
+  padding: 10px;
+  display: block;
+}
+#contact{
+  color: black;
+  padding: 10px;
+}
+.imagensArveres{
+  display: flex;
+}
+.imagensArveres1{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.imagensArveres2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.imagensArveres3{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.aboutMeText{
+  text-align: justify;
+}
+.mainProjectsText{
+  font-size: medium;
+}
+.textImagemArvere{
+  text-align: center;
 }
