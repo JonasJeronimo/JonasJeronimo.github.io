@@ -1,0 +1,20 @@
+.body{
+  background-color: black;
+}
+
+.header{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: beige;
+
+}
+
+#TextBody{
+  color: beige;
+}
+
+.buttons_header{
+  float: left
+}
